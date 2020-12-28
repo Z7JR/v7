@@ -1,0 +1,537 @@
+/*------------------------------------------------------------------
+ * template Name: Bredh - Multipurpose Web Hosting with WHMCS Template
+ * Author: coodiv (nedjai mohamed)
+ * Author URI: https://coodiv.net/
+ * Author URI: https://themeforest.net/user/coodiv
+ * Description: A Bootstrap Responsive Domain & Web Hosting Template + WHMCS template
+ * Version: 1.0.0
+ * Copyright 2019 coodiv.
+ -------------------------------------------------------------------*/
+
+ 
+@import url('https://fonts.googleapis.com/css?family=Cairo:300,400,700');
+ 
+
+ body, button, input, select, textarea, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+#nuhostcartcustom .tree-steps-hosting-plans-footer-btn .first-step-hosting-text small {
+    left: -6px;
+}
+
+#nuhostcartcustom .tree-steps-hosting-plans-footer-btn:hover .first-step-hosting-text small {
+    left: -120px;
+}
+#nuhostcartcustom .tree-steps-hosting-plans-footer-btn .first-step-hosting-text i {
+    right: -117px;
+}
+#nuhostcartcustom .tree-steps-hosting-plans-footer-btn:hover .first-step-hosting-text i {
+    right: -34px;
+}
+
+.panel-sidebar .panel-minimise {
+    float: left !important;
+}
+
+@media (min-width: 992px) {
+.pull-md-left {
+    float: left !important;
+}
+}
+
+.panel.panel-sidebar .panel-heading h3 {
+    font-size: 13px;
+}
+
+.panel.panel-sidebar .list-group-item {
+    font-weight: 100;
+    font-size: 13px;
+}
+
+#registration .prepend-icon .field {
+    padding-left: 0;
+    padding-right: 35px;
+}
+
+.intl-tel-input.allow-dropdown .flag-container, .intl-tel-input.separate-dial-code .flag-container {
+    right: 0;
+    left: auto;
+}
+
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=tel], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=text] {
+    padding-left: 0;
+    padding-right: 80px;
+}
+.intl-tel-input.separate-dial-code .selected-dial-code {
+    padding-left: 0;
+    padding-right: 28px;
+}
+.intl-tel-input .selected-flag .iti-arrow {
+    left: 6px;
+    right: auto;
+}
+
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 input[type=tel], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 input[type=text] {
+    padding-right: 92px;
+	 padding-left: 0;
+}
+
+.intl-tel-input.separate-dial-code.iti-sdc-4 input, .intl-tel-input.separate-dial-code.iti-sdc-4 input[type=tel], .intl-tel-input.separate-dial-code.iti-sdc-4 input[type=text] {
+    padding-right: 82px;
+	 padding-left: 0;
+}
+
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-5 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-5 input[type=tel], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-5 input[type=text] {
+    padding-right: 100px;
+	padding-left: 0;
+}
+
+.intl-tel-input .selected-flag {
+    padding: 0 8px 0 0;
+}
+
+.box-intr .title {
+    font-family: 'Cairo', sans-serif !important;
+    letter-spacing: 0;
+}
+
+.client-home-panels .panel>.panel-heading .panel-title {
+    font-size: 13px;
+    letter-spacing: 0;
+}
+
+.client-home-panels .panel>.panel-body p {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.tooltip{
+    font-family: 'tahoma', sans-serif !important;
+}
+
+div.header-lined .breadcrumb {
+    font-size: 12px;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+#order-standard_cart .prepend-icon .field {
+    padding-right: 36px !important;
+    padding-left: 0 !important;
+}
+
+#order-standard_cart .domain-selection-options .option .iradio_square-blue {
+    margin-right: 0  !important;
+    margin-left: 10px  !important;
+}
+
+div.header-lined h1 {
+    font-size: 19px;
+}
+
+.form-control {
+    padding: 2px 12px;
+}
+
+.top-header-right-nav {
+    float: right;
+    padding-right: 0;
+}
+
+.top-header-right-nav li {
+    padding: 12px 0 8px 8px;
+	font-size: 11px;
+}
+
+ul.top-nav {
+    float: left;
+}
+
+.whmcs-top-header-coodiv-link span {
+    font-size: 10px;
+}
+
+.whmcs-top-header-coodiv-link span {
+    font-size: 10px;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.header-user-info-coodiv li #header-login-dropdown {
+    font-size: 11px;
+    display: block;
+    margin-top: 2px;
+    padding: 7px 30px;
+}
+
+.header-user-info-coodiv li span {
+    font-size: 12px;
+    font-family: "Open Sans",Verdana,Tahoma,serif;
+	margin-top: 5px;
+}
+
+.ml-auto, .mx-auto {
+    margin-right: auto!important;
+	margin-left: 0!important;
+}
+
+@media (min-width: 768px) {
+.navbar-nav>li {
+    float: right;
+}
+#coodiv-navbar-header .navbar-nav>li>a {
+    font-weight: 400;
+    font-size: 12px;
+}
+}
+
+#coodiv-navbar-header .dropdown-menu.user-login-dropdown {
+    right: auto;
+    left: 0;
+}
+
+#coodiv-navbar-header .coodiv-dropdown-header.user-login-dropdown:after {
+    right: auto;
+    left: 40px;
+}
+
+.user-login-dropdown-form-button {
+    transform: translateY(-50%) rotate(180deg);
+    left: -22px;
+    right: auto;
+}
+
+.user-login-dropdown-form .form-group i {
+    right: auto;
+    left: 20px;
+}
+
+.user-login-dropdown-form .form-group input {
+    font-size: 12px;
+    letter-spacing: 0;
+}
+
+.main-header-text-title span {
+    font-family: 'Cairo', sans-serif !important;
+    color: #e1eaef;
+}
+
+.main-header-text-title {
+    font-size: 26px;
+    letter-spacing: 0;
+}
+
+#domain-search-header .inline-button-domain-order {
+    right: auto;
+    left: 11px;
+}
+
+#domain-search-header input {
+    padding-left: 0;
+    padding-right: 60px;
+}
+
+#domain-search-header .fa-globe {
+    left: auto;
+    right: 36px;
+}
+
+.domain-search-header-pricetext {
+    text-align: left;
+}
+
+.futures-version-2-box .free-badge {
+    right: auto;
+    left: 15px;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.futures-version-2-box p {
+    font-size: 12px;
+    font-family: 'Cairo', sans-serif !important;
+    margin-bottom: 0;
+}
+
+.futures-version-2-box .more-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    letter-spacing: 0px;
+}
+
+[class^="bredhicon-"]:before, [class*=" bredhicon-"]:before {
+    margin-right: 0;
+}
+
+#coodiv-navbar-header .dropdown-menu:after {
+    right: 5px;
+    left: auto;
+}
+
+#coodiv-navbar-header .dropdown-menu li a {
+    font-weight: 500;
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+.second-pricing-table-title {
+    text-align: right;
+}
+
+.second-pricing-table-title span {
+    font-size: 12px;
+    letter-spacing: 0;
+    margin-top: 5px;
+}
+
+.second-pricing-table-price {
+    text-align: right;
+    font-size: 28px;
+}
+
+.second-pricing-table-price small {
+    font-size: 11px;
+    margin-right: 5px;
+}
+
+.second-pricing-table-body {
+    padding-right: 0;
+    text-align: right;
+}
+
+.second-pricing-table-body li {
+    font-size: 13px;
+}
+
+.second-pricing-table-body li.not-chacked:after {
+    left: 9px;
+    right: auto;
+}
+
+#monthly-yearly-chenge a {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+#monthly-yearly-chenge.style-two a:first-child .change-box {
+    right: auto;
+    left: 3px;
+}
+#monthly-yearly-chenge.style-two a.active:first-child .change-box {
+    left: auto;
+    right: 3px;
+}
+
+.title-default-coodiv-two {
+    font-family: 'Cairo', sans-serif !important;
+    font-size: 21px;
+}
+
+.title-default-coodiv-two span {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.display-on-hover-box-cotent-items h5 {
+    font-size: 14px;
+}
+
+.display-on-hover-box-cotent-items p {
+    font-size: 12px;
+}
+
+.side-text-right-text {
+    font-size: 15px;
+}
+
+.benchmarks-link {
+    right: auto;
+    left: 0;
+    font-family: 'Cairo', sans-serif !important;
+    font-size: 14px;
+}
+
+.benchmarks-link:after {
+	border-width: 100px 0 0 80px;
+	border-color: transparent transparent transparent rgba(19, 19, 21, 0.13);
+    left: auto;
+    right: -80px;
+}
+
+.counter-placeholder {
+    float: right;
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.banner-text-left h5 {
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+.banner-text-left p {
+    font-size: 13px;
+}
+
+.server-tabls-head {
+    font-family: 'Cairo', sans-serif !important;
+}
+.server-tabls-row {
+    font-family: 'Cairo', sans-serif !important;
+}
+.server-tabls-row .server-order-button {
+    letter-spacing: 0;
+}
+.server-tabls-row .span-info-servers {
+    float: right;
+}
+.jango-color-btn {
+    font-size: 12px;
+    font-family: 'Cairo', sans-serif !important;
+}
+.box-features-one h5 {
+    font-size: 13px;
+}
+.free-trial-footer-banner-title {
+    font-size: 18px;
+    letter-spacing: 0;
+}
+.free-trial-footer-banner-text {
+    font-size: 14px;
+}
+.quiq-links-footer-ul li:after {
+    left: auto;
+    right: -19px;
+}
+.footer-lang-changer .menu-btn-changer img {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.footer-social-icons a {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.quiq-links-footer-ul li a {
+    font-size: 13px;
+}
+.domain-promo-box i {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.moon-edition .main-header-sub-pages-informations div.header-lined h1 {
+    font-size: 25px;
+    letter-spacing: 0;
+    margin-bottom: 0;
+}
+.main-header-sub-pages-informations div.header-lined h1 small {
+    font-family: 'Cairo', sans-serif !important;
+}
+@media (min-width: 768px) {
+.logincontainer.with-social .login-form {
+    padding-left: 29px;
+    border-left: 1px solid #ddd;
+    padding-right: 0;
+    border-right: 0;
+}}
+.btn-social {
+    text-align: right;
+}
+#registration .field, #registration .form-control {
+    font-size: 12px;
+}
+#default-captcha-domainchecker .col-xs-6.captchaimage{
+    text-align: left;
+}
+#default-captcha-domainchecker #inputCaptcha {
+    float: right !important;
+}
+.header-user-info-coodiv li span.infonexsheader {
+    left: -21px;
+    right: auto;
+}
+.services-box-user-info-header {
+    right: auto;
+    left: 0;
+}
+.services-box-user-info-header .title {
+    font-family: 'Cairo', sans-serif !important;
+}
+#coodiv-navbar-header .dropdown-menu ul.user-menu-dro li a i:last-child {
+    float: left;
+    transform: rotate(180deg);
+}
+#coodiv-navbar-header .dropdown-menu ul.user-menu-dro li a {
+    text-align: right;
+}
+.client-home-panels .panel.coodiv-panel-client-area-home>.panel-heading h3 {
+    letter-spacing: 0;
+}
+.pull-right {
+    float: left!important;
+}
+.panel-sidebar .panel-title {
+    letter-spacing: 0;
+}
+.preloader .preloader-container span {
+    font-size: 15px;
+    letter-spacing: 0;
+}
+.cart-whmcs-custom-hosting-order .tree-steps-hosting-plans-best {
+    letter-spacing: 0;
+    font-size: 12px;
+}
+.tree-steps-hosting-plans-footer-btn {
+    font-family: 'Cairo', sans-serif !important;
+}
+.tree-steps-hosting-plans-list li.checked:after {
+    float: left !important;
+}
+.tree-steps-hosting-plans-list li.not-checked:after {
+    float: left !important;
+}
+.tree-steps-hosting-plans-price {
+    right: auto !important;
+    left: 0 !important;
+    font-family: 'Cairo', sans-serif !important;
+}
+.tree-steps-hosting-plans-icon {
+    float: right !important;
+    margin-right: 0 !important;
+    margin-left: 14px !important;
+}
+.tree-steps-hosting-plans-footer-btn .first-step-hosting-text small {
+    font-size: 11px !important;
+    letter-spacing: 0 !important;
+}
+.tree-steps-hosting-plans-footer-btn:hover .first-step-hosting-text i {
+    transform: rotate(180deg);
+}
+#bredh-cart-custom .bredh-orderform-template .bredh-orderform-template-header .pricing-table-title {
+    text-align: right !important;
+    margin-bottom: 0 !important;
+}
+#bredh-cart-custom .bredh-orderform-template .bredh-orderform-template-header .tha_price {
+    text-align: right !important;
+    margin: 3px 0 15px !important;
+}
+#bredh-cart-custom .bredh-orderform-template .bredh-orderform-template-header .hosting-plans-icon {
+    float: left  !important;
+}
+#bredh-cart-custom .bredh-orderform-template .pricing-table-body {
+    text-align: right!important;
+    padding-right: 0!important;
+}
+@media (max-width: 768px) {
+.header-user-info-coodiv li #header-login-dropdown {
+    padding: 7px 10px;
+}
+.header-user-info-coodiv {
+    padding-right: 15px;
+}
+#coodiv-navbar-header .navbar-nav>li>a {
+    font-size: 11px;
+}
+#coodiv-navbar-header .dropdown-menu:after {
+    right: 10px;
+}
+.header-user-info-coodiv li span.infonexsheader {
+    left: -7px;
+}
+}
